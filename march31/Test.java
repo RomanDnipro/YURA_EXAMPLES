@@ -1,5 +1,8 @@
 package march31;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Test {
 
     public static void main(String[] args) {
@@ -16,6 +19,8 @@ public class Test {
 
         Holder<? super Integer, String, Integer> holder3 = new Holder<>();
         //holder3.setA();
+
+        List<? extends Number> list = new ArrayList<Integer>();
 
     }
 
